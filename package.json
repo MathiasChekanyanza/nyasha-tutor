@@ -1,0 +1,13 @@
+{
+  "name": "nyasha-tutor-api",
+  "version": "1.0.0",
+  "description": "Nyasha ZIMSEC Math Tutor — Shona/English AI API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "health": "curl -s http://localhost:$PORT/api/health"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
