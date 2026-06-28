@@ -1,0 +1,227 @@
+{"instruction":"Bought for $406, sold for $426. Profit percentage?","input":"","response":"4.9%","topic":"Consumer Arithmetic","subtopic":"Profit & Loss","language":"en","type":"exam_question"}
+{"instruction":"Share $90 in ratio 1:6.","input":"","response":"$12.85 and $77.15","topic":"Numbers","subtopic":"Ratio","language":"en","type":"exam_question"}
+{"instruction":"A=[4 1; 3 4]. Find A⁻¹.","input":"","response":"1/13 × [4 -1; -3 4]","topic":"Matrices","subtopic":"Inverse","language":"en","type":"exam_question"}
+{"instruction":"Exterior angle of regular 8-sided polygon?","input":"","response":"45°","topic":"Geometry","subtopic":"Regular Polygons","language":"en","type":"exam_question"}
+{"instruction":"A={1,2,3,4,5},B={3,4,5,6,7}. Find A∪B.","input":"","response":"{1,2,3,4,5,6,7}","topic":"Sets","subtopic":"Union","language":"en","type":"exam_question"}
+{"instruction":"Round 32582.6831 to 3 sf.","input":"","response":"32600","topic":"Numbers","subtopic":"Significant Figures","language":"en","type":"exam_question"}
+{"instruction":"Which congruence condition? 2 angles+included side","input":"","response":"ASA","topic":"Geometry","subtopic":"Congruence","language":"en","type":"exam_question"}
+{"instruction":"f(x)=1x²-9x+2. f(0)?","input":"","response":"2","topic":"Relations & Functions","subtopic":"Quadratic Functions","language":"en","type":"exam_question"}
+{"instruction":"If 5 books cost $25, how much do 8 books cost?","input":"","response":"$40","topic":"Ratio & Proportion","subtopic":"Direct Proportion","language":"en","type":"exam_question"}
+{"instruction":"Expand: 1x(x+1)(x+5)","input":"","response":"1x³+6x²+5x","topic":"Algebra","subtopic":"Expansion","language":"en","type":"exam_question"}
+{"instruction":"ξ has 30. n(A)=18, n(B)=15, n(A∩B)=6. n(A∪B)?","input":"","response":"27","topic":"Sets","subtopic":"Set Notation","language":"en","type":"exam_question"}
+{"instruction":"Cuboid 5m×5m×5m. Volume?","input":"","response":"125 m³","topic":"Mensuration","subtopic":"Volume of Cuboid","language":"en","type":"exam_question"}
+{"instruction":"Evaluate: 2^1","input":"","response":"2","topic":"Algebra","subtopic":"Indices","language":"en","type":"exam_question"}
+{"instruction":"Given f(x)=x+2,g(x)=3x, find f(2).","input":"","response":"4","topic":"Relations & Functions","subtopic":"Composite Functions","language":"en","type":"exam_question"}
+{"instruction":"A=[3 3; 4 3]. Find 4A.","input":"","response":"[12 12; 16 12]","topic":"Matrices","subtopic":"Scalar Multiplication","language":"en","type":"exam_question"}
+{"instruction":"P(5,4) rotate 90° clockwise about origin. Find P'.","input":"","response":"P'(4,-5)","topic":"Transformations","subtopic":"Rotation","language":"en","type":"exam_question"}
+{"instruction":"Find cos 45°.","input":"","response":"0.7071","topic":"Trigonometry","subtopic":"Trig Ratios","language":"en","type":"exam_question"}
+{"instruction":"A=[2 5; 4 1]. Find det(A).","input":"","response":"-18","topic":"Matrices","subtopic":"Determinant","language":"en","type":"exam_question"}
+{"instruction":"Chart: Red:11, Blue:11, Green:14, Yellow:8. Fraction Red?","input":"","response":"1/4","topic":"Statistics","subtopic":"Bar Charts","language":"en","type":"exam_question"}
+{"instruction":"P(1,1) rotate 90° clockwise about origin. Find P'.","input":"","response":"P'(1,-1)","topic":"Transformations","subtopic":"Rotation","language":"en","type":"exam_question"}
+{"instruction":"Sine rule: a=23cm, A=55°, B=30°. Find b.","input":"","response":"14.04 cm","topic":"Trigonometry","subtopic":"Sine Rule","language":"en","type":"exam_question"}
+{"instruction":"Find HCF of 14 and 12.","input":"","response":"2","topic":"Numbers","subtopic":"HCF","language":"en","type":"exam_question"}
+{"instruction":"x=-1, y=-1. Find x²+2xy+y².","input":"","response":"4","topic":"Algebra","subtopic":"Algebraic Manipulation","language":"en","type":"exam_question"}
+{"instruction":"Expand: 3x(x+1)(x+5)","input":"","response":"3x³+18x²+15x","topic":"Algebra","subtopic":"Expansion","language":"en","type":"exam_question"}
+{"instruction":"Solve: 1x-7 = -7","input":"","response":"x=0","topic":"Algebra","subtopic":"Linear Equations","language":"en","type":"exam_question"}
+{"instruction":"v=(2,4). Find 1v.","input":"","response":"(2, 4)","topic":"Vectors","subtopic":"Scalar Multiple","language":"en","type":"exam_question"}
+{"instruction":"Find HCF of 4 and 6.","input":"","response":"2","topic":"Numbers","subtopic":"HCF","language":"en","type":"exam_question"}
+{"instruction":"5 marbles (1 red). P(red)?","input":"","response":"1/5","topic":"Probability","subtopic":"Simple Probability","language":"en","type":"exam_question"}
+{"instruction":"P(5,1) rotate 90° clockwise about origin. Find P'.","input":"","response":"P'(1,-5)","topic":"Transformations","subtopic":"Rotation","language":"en","type":"exam_question"}
+{"instruction":"Parallel lines: one angle=32°. Corresponding and alternate?","input":"","response":"32°, 32°","topic":"Geometry","subtopic":"Parallel Lines","language":"en","type":"exam_question"}
+{"instruction":"Price $900. Add 10% VAT. Total?","input":"","response":"$990.00","topic":"Consumer Arithmetic","subtopic":"VAT","language":"en","type":"exam_question"}
+{"instruction":"Item costs $334. Discount 20%. Sale price?","input":"","response":"$267.20","topic":"Consumer Arithmetic","subtopic":"Discount","language":"en","type":"exam_question"}
+{"instruction":"Price $710. Add 15% VAT. Total?","input":"","response":"$816.50","topic":"Consumer Arithmetic","subtopic":"VAT","language":"en","type":"exam_question"}
+{"instruction":"Round 185.09191 to 2 dp.","input":"","response":"185.09","topic":"Numbers","subtopic":"Decimal Places","language":"en","type":"exam_question"}
+{"instruction":"Class of 24: 11 football, 8 basketball. 3 only basketball, 10 neither. Both?","input":"","response":"5","topic":"Sets","subtopic":"Venn Diagrams","language":"en","type":"exam_question"}
+{"instruction":"Principal $2352, rate 8% pa, 1 years. Simple interest?","input":"","response":"$188.16","topic":"Consumer Arithmetic","subtopic":"Simple Interest","language":"en","type":"exam_question"}
+{"instruction":"v=(1,1). Find 1v.","input":"","response":"(1, 1)","topic":"Vectors","subtopic":"Scalar Multiple","language":"en","type":"exam_question"}
+{"instruction":"If a:b=6:3 and a=42, find b.","input":"","response":"21","topic":"Ratio & Proportion","subtopic":"Direct Proportion","language":"en","type":"exam_question"}
+{"instruction":"a varies inversely as b. If a=5 when b=4, find a when b=6","input":"","response":"3","topic":"Ratio & Proportion","subtopic":"Inverse Proportion","language":"en","type":"exam_question"}
+{"instruction":"Sum of interior angles of 6-sided polygon?","input":"","response":"720°","topic":"Geometry","subtopic":"Polygons","language":"en","type":"exam_question"}
+{"instruction":"Mode of: 4, 8, 1, 8, 5, 9, 1, 1, 3","input":"","response":"1","topic":"Statistics","subtopic":"Mode","language":"en","type":"exam_question"}
+{"instruction":"Simplify: 2^3 × 2^3","input":"","response":"2^6","topic":"Algebra","subtopic":"Laws of Indices","language":"en","type":"exam_question"}
+{"instruction":"Find tan 60°.","input":"","response":"1.7321","topic":"Trigonometry","subtopic":"Trig Ratios","language":"en","type":"exam_question"}
+{"instruction":"a varies inversely as b. If a=3 when b=5, find a when b=5","input":"","response":"3","topic":"Ratio & Proportion","subtopic":"Inverse Proportion","language":"en","type":"exam_question"}
+{"instruction":"Median of: 7, 8, 9, 19, 19, 22, 28, 28","input":"","response":"19","topic":"Statistics","subtopic":"Median","language":"en","type":"exam_question"}
+{"instruction":"f(x)=(2x+5)/(x--5). Domain?","input":"","response":"x ≠ -5","topic":"Relations & Functions","subtopic":"Domain & Range","language":"en","type":"exam_question"}
+{"instruction":"P(2,4) enlarge SF=3 about origin. Find P'.","input":"","response":"P'(6,12)","topic":"Transformations","subtopic":"Enlargement","language":"en","type":"exam_question"}
+{"instruction":"y=5x-2. x-intercept?","input":"","response":"0.4","topic":"Graphs","subtopic":"x-intercepts","language":"en","type":"exam_question"}
+{"instruction":"Solve: x²-8x+12=0","input":"","response":"x=2 or x=6","topic":"Algebra","subtopic":"Quadratic Equations","language":"en","type":"exam_question"}
+{"instruction":"f(x)=4x²-4x+3. f(0)?","input":"","response":"3","topic":"Relations & Functions","subtopic":"Quadratic Functions","language":"en","type":"exam_question"}
+{"instruction":"Factorise: x²-11x+30","input":"","response":"(x-6)(x-5)","topic":"Algebra","subtopic":"Factorisation","language":"en","type":"exam_question"}
+{"instruction":"Evaluate: 3/5+3/8","input":"","response":"39/40","topic":"Numbers","subtopic":"Fractions","language":"en","type":"exam_question"}
+{"instruction":"x=-3, y=-3. Find x²+2xy+y².","input":"","response":"36","topic":"Algebra","subtopic":"Algebraic Manipulation","language":"en","type":"exam_question"}
+{"instruction":"f(x)=1x-4. f(1)?","input":"","response":"-3","topic":"Relations & Functions","subtopic":"Function Notation","language":"en","type":"exam_question"}
+{"instruction":"a=(2,2), b=(4,5). a+b?","input":"","response":"(6, 7)","topic":"Vectors","subtopic":"Vector Addition","language":"en","type":"exam_question"}
+{"instruction":"Sector r=4cm, angle=80°. Arc length? (π=3.142)","input":"","response":"5.59 cm","topic":"Mensuration","subtopic":"Arc Length","language":"en","type":"exam_question"}
+{"instruction":"Right triangle hyp=12cm, angle=59°. Opposite side?","input":"","response":"10.29 cm","topic":"Trigonometry","subtopic":"Finding Sides","language":"en","type":"exam_question"}
+{"instruction":"A=[2 4; 3 2]. Find 2A.","input":"","response":"[4 8; 6 4]","topic":"Matrices","subtopic":"Scalar Multiplication","language":"en","type":"exam_question"}
+{"instruction":"Evaluate: 3^1","input":"","response":"3","topic":"Algebra","subtopic":"Indices","language":"en","type":"exam_question"}
+{"instruction":"Principal $1047, rate 10% pa, 3 years. Simple interest?","input":"","response":"$314.1","topic":"Consumer Arithmetic","subtopic":"Simple Interest","language":"en","type":"exam_question"}
+{"instruction":"a=(5,3), b=(4,1). a+b?","input":"","response":"(9, 4)","topic":"Vectors","subtopic":"Vector Addition","language":"en","type":"exam_question"}
+{"instruction":"Share $90 in ratio 1:3.","input":"","response":"$22.5 and $67.5","topic":"Numbers","subtopic":"Ratio","language":"en","type":"exam_question"}
+{"instruction":"a varies inversely as b. If a=6 when b=3, find a when b=3","input":"","response":"6","topic":"Ratio & Proportion","subtopic":"Inverse Proportion","language":"en","type":"exam_question"}
+{"instruction":"y=x²-4. Find y when x=-2.","input":"","response":"0","topic":"Graphs","subtopic":"Quadratic Graphs","language":"en","type":"exam_question"}
+{"instruction":"Simplify: 4^2 × 4^2","input":"","response":"4^4","topic":"Algebra","subtopic":"Laws of Indices","language":"en","type":"exam_question"}
+{"instruction":"a=(5,1), b=(4,4). a+b?","input":"","response":"(9, 5)","topic":"Vectors","subtopic":"Vector Addition","language":"en","type":"exam_question"}
+{"instruction":"ξ has 31. n(A)=19, n(B)=16, n(A∩B)=6. n(A∪B)?","input":"","response":"29","topic":"Sets","subtopic":"Set Notation","language":"en","type":"exam_question"}
+{"instruction":"Solve: 3x+5 = -4","input":"","response":"x=-3","topic":"Algebra","subtopic":"Linear Equations","language":"en","type":"exam_question"}
+{"instruction":"Circle radius 3cm. Area? (π=3.142)","input":"","response":"28.28 cm²","topic":"Mensuration","subtopic":"Area of Circle","language":"en","type":"exam_question"}
+{"instruction":"Rectangle 9cm×7cm. Perimeter?","input":"","response":"32 cm","topic":"Mensuration","subtopic":"Perimeter","language":"en","type":"exam_question"}
+{"instruction":"f(x)=2x-5. f(-4)?","input":"","response":"-13","topic":"Relations & Functions","subtopic":"Function Notation","language":"en","type":"exam_question"}
+{"instruction":"Cuboid 4×2×2cm. Surface area?","input":"","response":"40 cm²","topic":"Mensuration","subtopic":"Surface Area","language":"en","type":"exam_question"}
+{"instruction":"Exterior angle of regular 5-sided polygon?","input":"","response":"72°","topic":"Geometry","subtopic":"Regular Polygons","language":"en","type":"exam_question"}
+{"instruction":"Rectangle 7cm×6cm. Area?","input":"","response":"42 cm²","topic":"Mensuration","subtopic":"Area of Rectangle","language":"en","type":"exam_question"}
+{"instruction":"Rectangle 10cm×6cm. Area?","input":"","response":"60 cm²","topic":"Mensuration","subtopic":"Area of Rectangle","language":"en","type":"exam_question"}
+{"instruction":"P(1,2) translate by (3,-2). Find P'.","input":"","response":"P'(4,0)","topic":"Transformations","subtopic":"Translation","language":"en","type":"exam_question"}
+{"instruction":"A={1,2,3,4,5},B={3,4,5,6,7}. Find A∩B.","input":"","response":"{3,4,5}","topic":"Sets","subtopic":"Intersection","language":"en","type":"exam_question"}
+{"instruction":"10 marbles (4 red). P(red)?","input":"","response":"2/5","topic":"Probability","subtopic":"Simple Probability","language":"en","type":"exam_question"}
+{"instruction":"Triangle base=13cm, height=11cm. Area?","input":"","response":"71.5 cm²","topic":"Mensuration","subtopic":"Area of Triangle","language":"en","type":"exam_question"}
+{"instruction":"Circle radius 4cm. Area? (π=3.142)","input":"","response":"50.27 cm²","topic":"Mensuration","subtopic":"Area of Circle","language":"en","type":"exam_question"}
+{"instruction":"Triangle ∠A=36°, ∠B=50°. Find ∠C.","input":"","response":"94°","topic":"Geometry","subtopic":"Triangle Angles","language":"en","type":"exam_question"}
+{"instruction":"Solve: 2x-6 = -8","input":"","response":"x=-1","topic":"Algebra","subtopic":"Linear Equations","language":"en","type":"exam_question"}
+{"instruction":"Circle radius 7cm. Area? (π=3.142)","input":"","response":"153.96 cm²","topic":"Mensuration","subtopic":"Area of Circle","language":"en","type":"exam_question"}
+{"instruction":"Price $170. Add 5% VAT. Total?","input":"","response":"$178.50","topic":"Consumer Arithmetic","subtopic":"VAT","language":"en","type":"exam_question"}
+{"instruction":"P(1,4) enlarge SF=2 about origin. Find P'.","input":"","response":"P'(2,8)","topic":"Transformations","subtopic":"Enlargement","language":"en","type":"exam_question"}
+{"instruction":"Sine rule: a=19cm, A=31°, B=45°. Find b.","input":"","response":"26.09 cm","topic":"Trigonometry","subtopic":"Sine Rule","language":"en","type":"exam_question"}
+{"instruction":"Bought for $476, sold for $486. Profit percentage?","input":"","response":"2.1%","topic":"Consumer Arithmetic","subtopic":"Profit & Loss","language":"en","type":"exam_question"}
+{"instruction":"Cuboid 7×3×2cm. Surface area?","input":"","response":"82 cm²","topic":"Mensuration","subtopic":"Surface Area","language":"en","type":"exam_question"}
+{"instruction":"a varies inversely as b. If a=6 when b=4, find a when b=4","input":"","response":"6","topic":"Ratio & Proportion","subtopic":"Inverse Proportion","language":"en","type":"exam_question"}
+{"instruction":"a=(3,3), b=(5,1). a+b?","input":"","response":"(8, 4)","topic":"Vectors","subtopic":"Vector Addition","language":"en","type":"exam_question"}
+{"instruction":"Given f(x)=2x-1,g(x)=x², find f(2).","input":"","response":"3","topic":"Relations & Functions","subtopic":"Composite Functions","language":"en","type":"exam_question"}
+{"instruction":"Item costs $112. Discount 20%. Sale price?","input":"","response":"$89.60","topic":"Consumer Arithmetic","subtopic":"Discount","language":"en","type":"exam_question"}
+{"instruction":"Mode of: 7, 2, 9, 3, 6","input":"","response":"No mode","topic":"Statistics","subtopic":"Mode","language":"en","type":"exam_question"}
+{"instruction":"y=x²-4. Find y when x=0.","input":"","response":"-4","topic":"Graphs","subtopic":"Quadratic Graphs","language":"en","type":"exam_question"}
+{"instruction":"A=[4 3; 5 2]. Find det(A).","input":"","response":"-7","topic":"Matrices","subtopic":"Determinant","language":"en","type":"exam_question"}
+{"instruction":"A=[3 3; 2 4]. Find 4A.","input":"","response":"[12 12; 8 16]","topic":"Matrices","subtopic":"Scalar Multiplication","language":"en","type":"exam_question"}
+{"instruction":"19 balls: 10 blue, 9 red. P(blue then red, no replace)?","input":"","response":"0.2632","topic":"Probability","subtopic":"Without Replacement","language":"en","type":"exam_question"}
+{"instruction":"|(5,4)|?","input":"","response":"6.40","topic":"Vectors","subtopic":"Magnitude","language":"en","type":"exam_question"}
+{"instruction":"P(rain)=3/6. P(no rain)?","input":"","response":"3/6","topic":"Probability","subtopic":"Complement","language":"en","type":"exam_question"}
+{"instruction":"Rectangle 12cm×3cm. Area?","input":"","response":"36 cm²","topic":"Mensuration","subtopic":"Area of Rectangle","language":"en","type":"exam_question"}
+{"instruction":"A=[4 2; 1 1], B=[5 2; 1 2]. A+B?","input":"","response":"[9 4; 2 3]","topic":"Matrices","subtopic":"Addition","language":"en","type":"exam_question"}
+{"instruction":"Which congruence condition? RHS","input":"","response":"RHS","topic":"Geometry","subtopic":"Congruence","language":"en","type":"exam_question"}
+{"instruction":"Triangle ∠A=42°, ∠B=50°. Find ∠C.","input":"","response":"88°","topic":"Geometry","subtopic":"Triangle Angles","language":"en","type":"exam_question"}
+{"instruction":"a=(2,3), b=(5,5). a+b?","input":"","response":"(7, 8)","topic":"Vectors","subtopic":"Vector Addition","language":"en","type":"exam_question"}
+{"instruction":"y=x²-4. Find y when x=1.","input":"","response":"-3","topic":"Graphs","subtopic":"Quadratic Graphs","language":"en","type":"exam_question"}
+{"instruction":"Which congruence condition? 3 sides equal","input":"","response":"SSS","topic":"Geometry","subtopic":"Congruence","language":"en","type":"exam_question"}
+{"instruction":"Find cos 0°.","input":"","response":"1","topic":"Trigonometry","subtopic":"Trig Ratios","language":"en","type":"exam_question"}
+{"instruction":"Centre angle=60°. Angle at circumference?","input":"","response":"30°","topic":"Geometry","subtopic":"Circle Theorems","language":"en","type":"exam_question"}
+{"instruction":"Mode of: 1, 6, 2, 7, 8, 7","input":"","response":"7","topic":"Statistics","subtopic":"Mode","language":"en","type":"exam_question"}
+{"instruction":"Sine rule: a=23cm, A=48°, B=31°. Find b.","input":"","response":"15.94 cm","topic":"Trigonometry","subtopic":"Sine Rule","language":"en","type":"exam_question"}
+{"instruction":"Sector r=5cm, angle=30°. Arc length? (π=3.142)","input":"","response":"2.62 cm","topic":"Mensuration","subtopic":"Arc Length","language":"en","type":"exam_question"}
+{"instruction":"A=[2 4; 2 3]. Find 5A.","input":"","response":"[10 20; 10 15]","topic":"Matrices","subtopic":"Scalar Multiplication","language":"en","type":"exam_question"}
+{"instruction":"y=2x+2. Gradient and y-intercept?","input":"","response":"m=2, c=2","topic":"Graphs","subtopic":"Straight Line Graphs","language":"en","type":"exam_question"}
+{"instruction":"Elevation=70°, distance=29m. Height?","input":"","response":"79.68 m","topic":"Trigonometry","subtopic":"Angle of Elevation","language":"en","type":"exam_question"}
+{"instruction":"Right triangle opp=7cm, adj=3cm. Find angle.","input":"","response":"67°","topic":"Trigonometry","subtopic":"Finding Angles","language":"en","type":"exam_question"}
+{"instruction":"Expand: 5x(x+8)(x+8)","input":"","response":"5x³+80x²+320x","topic":"Algebra","subtopic":"Expansion","language":"en","type":"exam_question"}
+{"instruction":"Simplify ratio 32:8","input":"","response":"4:1","topic":"Ratio & Proportion","subtopic":"Simplifying Ratios","language":"en","type":"exam_question"}
+{"instruction":"Roll 10-sided die. P(even)?","input":"","response":"5/10","topic":"Probability","subtopic":"Fair Probability","language":"en","type":"exam_question"}
+{"instruction":"Write 320,000 in standard form.","input":"","response":"32 × 10^4","topic":"Numbers","subtopic":"Standard Form","language":"en","type":"exam_question"}
+{"instruction":"Round 46811.1344 to 3 sf.","input":"","response":"46800","topic":"Numbers","subtopic":"Significant Figures","language":"en","type":"exam_question"}
+{"instruction":"Median of: 6, 9, 16, 16, 17, 26","input":"","response":"16","topic":"Statistics","subtopic":"Median","language":"en","type":"exam_question"}
+{"instruction":"Find LCM of 14 and 6.","input":"","response":"42","topic":"Numbers","subtopic":"LCM","language":"en","type":"exam_question"}
+{"instruction":"Item costs $409. Discount 25%. Sale price?","input":"","response":"$306.75","topic":"Consumer Arithmetic","subtopic":"Discount","language":"en","type":"exam_question"}
+{"instruction":"|(2,1)|?","input":"","response":"2.24","topic":"Vectors","subtopic":"Magnitude","language":"en","type":"exam_question"}
+{"instruction":"Principal $3468, rate 8% pa, 3 years. Simple interest?","input":"","response":"$832.32","topic":"Consumer Arithmetic","subtopic":"Simple Interest","language":"en","type":"exam_question"}
+{"instruction":"Sum of interior angles of 3-sided polygon?","input":"","response":"180°","topic":"Geometry","subtopic":"Polygons","language":"en","type":"exam_question"}
+{"instruction":"Elevation=20°, distance=42m. Height?","input":"","response":"15.29 m","topic":"Trigonometry","subtopic":"Angle of Elevation","language":"en","type":"exam_question"}
+{"instruction":"P(4,1) enlarge SF=2 about origin. Find P'.","input":"","response":"P'(8,2)","topic":"Transformations","subtopic":"Enlargement","language":"en","type":"exam_question"}
+{"instruction":"Express 84 as % of 209.","input":"","response":"40.2%","topic":"Numbers","subtopic":"Percentages","language":"en","type":"exam_question"}
+{"instruction":"a=(5,3), b=(1,1). a+b?","input":"","response":"(6, 4)","topic":"Vectors","subtopic":"Vector Addition","language":"en","type":"exam_question"}
+{"instruction":"Median of: 7, 15, 21, 21, 22","input":"","response":"21","topic":"Statistics","subtopic":"Median","language":"en","type":"exam_question"}
+{"instruction":"y=3x-1. x-intercept?","input":"","response":"0.3333333333333333","topic":"Graphs","subtopic":"x-intercepts","language":"en","type":"exam_question"}
+{"instruction":"v=(4,4). Find 1v.","input":"","response":"(4, 4)","topic":"Vectors","subtopic":"Scalar Multiple","language":"en","type":"exam_question"}
+{"instruction":"Item costs $212. Discount 12.5%. Sale price?","input":"","response":"$185.50","topic":"Consumer Arithmetic","subtopic":"Discount","language":"en","type":"exam_question"}
+{"instruction":"P(rain)=2/10. P(no rain)?","input":"","response":"8/10","topic":"Probability","subtopic":"Complement","language":"en","type":"exam_question"}
+{"instruction":"Right triangle hyp=14cm, angle=21°. Opposite side?","input":"","response":"5.02 cm","topic":"Trigonometry","subtopic":"Finding Sides","language":"en","type":"exam_question"}
+{"instruction":"Cuboid 6m×6m×4m. Volume?","input":"","response":"144 m³","topic":"Mensuration","subtopic":"Volume of Cuboid","language":"en","type":"exam_question"}
+{"instruction":"P(4,2) translate by (3,-2). Find P'.","input":"","response":"P'(7,0)","topic":"Transformations","subtopic":"Translation","language":"en","type":"exam_question"}
+{"instruction":"Range of: 28, 15, 21, 2, 18, 3, 23, 8","input":"","response":"26","topic":"Statistics","subtopic":"Range","language":"en","type":"exam_question"}
+{"instruction":"Solve:\n1x+2y=-6\n2x+1y=0","input":"","response":"x=2, y=-4","topic":"Algebra","subtopic":"Simultaneous Equations","language":"en","type":"exam_question"}
+{"instruction":"Car 52km/h for 1h. Distance?","input":"","response":"52 km","topic":"Numbers","subtopic":"Speed-Distance-Time","language":"en","type":"exam_question"}
+{"instruction":"Exchange rate: $1 = ZWL 400. How much in ZWL for $50?","input":"","response":"ZWL 20,000","topic":"Consumer Arithmetic","subtopic":"Currency Conversion","language":"en","type":"exam_question"}
+{"instruction":"Evaluate: 3/6+7/2","input":"","response":"4","topic":"Numbers","subtopic":"Fractions","language":"en","type":"exam_question"}
+{"instruction":"P(3,5) rotate 90° clockwise about origin. Find P'.","input":"","response":"P'(5,-3)","topic":"Transformations","subtopic":"Rotation","language":"en","type":"exam_question"}
+{"instruction":"v=(2,1). Find 3v.","input":"","response":"(6, 3)","topic":"Vectors","subtopic":"Scalar Multiple","language":"en","type":"exam_question"}
+{"instruction":"Solve: 4x-6 = -34","input":"","response":"x=-7","topic":"Algebra","subtopic":"Linear Equations","language":"en","type":"exam_question"}
+{"instruction":"A=[4 1; 3 3]. Find A⁻¹.","input":"","response":"1/9 × [3 -1; -3 4]","topic":"Matrices","subtopic":"Inverse","language":"en","type":"exam_question"}
+{"instruction":"P(5,3) reflect x-axis. Find P'.","input":"","response":"P'(5,-3)","topic":"Transformations","subtopic":"Reflection","language":"en","type":"exam_question"}
+{"instruction":"A=[4 2; 1 2]. Find 4A.","input":"","response":"[16 8; 4 8]","topic":"Matrices","subtopic":"Scalar Multiplication","language":"en","type":"exam_question"}
+{"instruction":"Right triangle opp=6cm, adj=5cm. Find angle.","input":"","response":"50°","topic":"Trigonometry","subtopic":"Finding Angles","language":"en","type":"exam_question"}
+{"instruction":"f(x)=1x+2. f(-3)?","input":"","response":"-1","topic":"Relations & Functions","subtopic":"Function Notation","language":"en","type":"exam_question"}
+{"instruction":"Triangle ∠A=42°, ∠B=47°. Find ∠C.","input":"","response":"91°","topic":"Geometry","subtopic":"Triangle Angles","language":"en","type":"exam_question"}
+{"instruction":"y=3x-4. x-intercept?","input":"","response":"1.3333333333333333","topic":"Graphs","subtopic":"x-intercepts","language":"en","type":"exam_question"}
+{"instruction":"7 marbles (3 red). P(red)?","input":"","response":"3/7","topic":"Probability","subtopic":"Simple Probability","language":"en","type":"exam_question"}
+{"instruction":"Chart: Red:6, Blue:9, Green:5, Yellow:8. Fraction Green?","input":"","response":"0.1786","topic":"Statistics","subtopic":"Bar Charts","language":"en","type":"exam_question"}
+{"instruction":"f(x)=1x-2. f(0)?","input":"","response":"-2","topic":"Relations & Functions","subtopic":"Function Notation","language":"en","type":"exam_question"}
+{"instruction":"a varies inversely as b. If a=6 when b=5, find a when b=3","input":"","response":"8","topic":"Ratio & Proportion","subtopic":"Inverse Proportion","language":"en","type":"exam_question"}
+{"instruction":"Simplify ratio 16:8","input":"","response":"2:1","topic":"Ratio & Proportion","subtopic":"Simplifying Ratios","language":"en","type":"exam_question"}
+{"instruction":"20 balls: 3 blue, 17 red. P(blue then red, no replace)?","input":"","response":"0.1342","topic":"Probability","subtopic":"Without Replacement","language":"en","type":"exam_question"}
+{"instruction":"Median of: 7, 8, 10, 11, 19, 19, 22, 25, 26","input":"","response":"19","topic":"Statistics","subtopic":"Median","language":"en","type":"exam_question"}
+{"instruction":"v=(1,4). Find 2v.","input":"","response":"(2, 8)","topic":"Vectors","subtopic":"Scalar Multiple","language":"en","type":"exam_question"}
+{"instruction":"Find LCM of 8 and 6.","input":"","response":"24","topic":"Numbers","subtopic":"LCM","language":"en","type":"exam_question"}
+{"instruction":"Write 0 in standard form.","input":"","response":"84 × 10^-5","topic":"Numbers","subtopic":"Standard Form","language":"en","type":"exam_question"}
+{"instruction":"Range of: 27, 19, 28, 23, 28, 28","input":"","response":"9","topic":"Statistics","subtopic":"Range","language":"en","type":"exam_question"}
+{"instruction":"Price $377. Add 12% VAT. Total?","input":"","response":"$422.24","topic":"Consumer Arithmetic","subtopic":"VAT","language":"en","type":"exam_question"}
+{"instruction":"A=[4 4; 1 1], B=[2 5; 5 3]. A+B?","input":"","response":"[6 9; 6 4]","topic":"Matrices","subtopic":"Addition","language":"en","type":"exam_question"}
+{"instruction":"Principal $4766, rate 12% pa, 1 years. Simple interest?","input":"","response":"$571.92","topic":"Consumer Arithmetic","subtopic":"Simple Interest","language":"en","type":"exam_question"}
+{"instruction":"y=x²-4. Find y when x=-3.","input":"","response":"5","topic":"Graphs","subtopic":"Quadratic Graphs","language":"en","type":"exam_question"}
+{"instruction":"Simplify ratio 24:8","input":"","response":"3:1","topic":"Ratio & Proportion","subtopic":"Simplifying Ratios","language":"en","type":"exam_question"}
+{"instruction":"f(x)=3x+3. f(1)?","input":"","response":"6","topic":"Relations & Functions","subtopic":"Function Notation","language":"en","type":"exam_question"}
+{"instruction":"Rectangle 7cm×5cm. Perimeter?","input":"","response":"24 cm","topic":"Mensuration","subtopic":"Perimeter","language":"en","type":"exam_question"}
+{"instruction":"Mean of: 5, 18, 3, 13, 11, 8","input":"","response":"9.67","topic":"Statistics","subtopic":"Mean","language":"en","type":"exam_question"}
+{"instruction":"Express 71 as % of 298.","input":"","response":"23.8%","topic":"Numbers","subtopic":"Percentages","language":"en","type":"exam_question"}
+{"instruction":"Sine rule: a=22cm, A=57°, B=37°. Find b.","input":"","response":"15.79 cm","topic":"Trigonometry","subtopic":"Sine Rule","language":"en","type":"exam_question"}
+{"instruction":"Solve: x²-11x+30=0","input":"","response":"x=5 or x=6","topic":"Algebra","subtopic":"Quadratic Equations","language":"en","type":"exam_question"}
+{"instruction":"Principal $2592, rate 12% pa, 3 years. Simple interest?","input":"","response":"$933.12","topic":"Consumer Arithmetic","subtopic":"Simple Interest","language":"en","type":"exam_question"}
+{"instruction":"f(x)=3x²-1x+2. f(-3)?","input":"","response":"32","topic":"Relations & Functions","subtopic":"Quadratic Functions","language":"en","type":"exam_question"}
+{"instruction":"Roll 12-sided die. P(even)?","input":"","response":"6/12","topic":"Probability","subtopic":"Fair Probability","language":"en","type":"exam_question"}
+{"instruction":"P(rain)=1/6. P(no rain)?","input":"","response":"5/6","topic":"Probability","subtopic":"Complement","language":"en","type":"exam_question"}
+{"instruction":"Bought for $303, sold for $323. Profit percentage?","input":"","response":"6.6%","topic":"Consumer Arithmetic","subtopic":"Profit & Loss","language":"en","type":"exam_question"}
+{"instruction":"Factorise: x²-10x+25","input":"","response":"(x-5)(x-5)","topic":"Algebra","subtopic":"Factorisation","language":"en","type":"exam_question"}
+{"instruction":"10 marbles (6 red). P(red)?","input":"","response":"3/5","topic":"Probability","subtopic":"Simple Probability","language":"en","type":"exam_question"}
+{"instruction":"Find HCF of 12 and 15.","input":"","response":"3","topic":"Numbers","subtopic":"HCF","language":"en","type":"exam_question"}
+{"instruction":"f(x)=2x²-5x+2. f(-1)?","input":"","response":"9","topic":"Relations & Functions","subtopic":"Quadratic Functions","language":"en","type":"exam_question"}
+{"instruction":"Round 131.56275 to 3 dp.","input":"","response":"131.563","topic":"Numbers","subtopic":"Decimal Places","language":"en","type":"exam_question"}
+{"instruction":"y=2^x. Find y when x=1.","input":"","response":"2","topic":"Graphs","subtopic":"Exponential Graphs","language":"en","type":"exam_question"}
+{"instruction":"Solve:\n2x+1y=1\n1x+1y=-2","input":"","response":"x=3, y=-5","topic":"Algebra","subtopic":"Simultaneous Equations","language":"en","type":"exam_question"}
+{"instruction":"11 marbles (10 red). P(red)?","input":"","response":"10/11","topic":"Probability","subtopic":"Simple Probability","language":"en","type":"exam_question"}
+{"instruction":"Price $454. Add 10% VAT. Total?","input":"","response":"$499.40","topic":"Consumer Arithmetic","subtopic":"VAT","language":"en","type":"exam_question"}
+{"instruction":"Isosceles base angles 57°. Apex angle?","input":"","response":"66°","topic":"Geometry","subtopic":"Isosceles Triangles","language":"en","type":"exam_question"}
+{"instruction":"A=[1 2; 2 2]. Find A⁻¹.","input":"","response":"1/-2 × [2 -2; -2 1]","topic":"Matrices","subtopic":"Inverse","language":"en","type":"exam_question"}
+{"instruction":"Sum of interior angles of 5-sided polygon?","input":"","response":"540°","topic":"Geometry","subtopic":"Polygons","language":"en","type":"exam_question"}
+{"instruction":"12 balls: 3 blue, 9 red. P(blue then red, no replace)?","input":"","response":"0.2045","topic":"Probability","subtopic":"Without Replacement","language":"en","type":"exam_question"}
+{"instruction":"Sector r=8cm, angle=30°. Sector area? (π=3.142)","input":"","response":"16.76 cm²","topic":"Mensuration","subtopic":"Sector Area","language":"en","type":"exam_question"}
+{"instruction":"Cuboid 6×4×3cm. Surface area?","input":"","response":"108 cm²","topic":"Mensuration","subtopic":"Surface Area","language":"en","type":"exam_question"}
+{"instruction":"ξ has 46. n(A)=28, n(B)=23, n(A∩B)=9. n(A∪B)?","input":"","response":"42","topic":"Sets","subtopic":"Set Notation","language":"en","type":"exam_question"}
+{"instruction":"A=[1 3; 1 3], B=[2 5; 4 5]. A+B?","input":"","response":"[3 8; 5 8]","topic":"Matrices","subtopic":"Addition","language":"en","type":"exam_question"}
+{"instruction":"Sine rule: a=29cm, A=37°, B=30°. Find b.","input":"","response":"24.09 cm","topic":"Trigonometry","subtopic":"Sine Rule","language":"en","type":"exam_question"}
+{"instruction":"Right triangle hyp=5cm, angle=52°. Opposite side?","input":"","response":"3.94 cm","topic":"Trigonometry","subtopic":"Finding Sides","language":"en","type":"exam_question"}
+{"instruction":"Solve:\n2x+2y=0\n2x+2y=0","input":"","response":"x=1, y=-1","topic":"Algebra","subtopic":"Simultaneous Equations","language":"en","type":"exam_question"}
+{"instruction":"Evaluate: 3^2","input":"","response":"9","topic":"Algebra","subtopic":"Indices","language":"en","type":"exam_question"}
+{"instruction":"P(1,4) rotate 90° clockwise about origin. Find P'.","input":"","response":"P'(4,-1)","topic":"Transformations","subtopic":"Rotation","language":"en","type":"exam_question"}
+{"instruction":"Median of: 6, 9, 10, 14, 23","input":"","response":"10","topic":"Statistics","subtopic":"Median","language":"en","type":"exam_question"}
+{"instruction":"ξ has 48. n(A)=29, n(B)=24, n(A∩B)=10. n(A∪B)?","input":"","response":"43","topic":"Sets","subtopic":"Set Notation","language":"en","type":"exam_question"}
+{"instruction":"Triangle ∠A=38°, ∠B=41°. Find ∠C.","input":"","response":"101°","topic":"Geometry","subtopic":"Triangle Angles","language":"en","type":"exam_question"}
+{"instruction":"Isosceles base angles 45°. Apex angle?","input":"","response":"90°","topic":"Geometry","subtopic":"Isosceles Triangles","language":"en","type":"exam_question"}
+{"instruction":"Round 36104.1493 to 1 sf.","input":"","response":"40000","topic":"Numbers","subtopic":"Significant Figures","language":"en","type":"exam_question"}
+{"instruction":"14 balls: 11 blue, 3 red. P(blue then red, no replace)?","input":"","response":"0.1813","topic":"Probability","subtopic":"Without Replacement","language":"en","type":"exam_question"}
+{"instruction":"Mean of: 15, 7, 12, 9, 12","input":"","response":"11.00","topic":"Statistics","subtopic":"Mean","language":"en","type":"exam_question"}
+{"instruction":"Expand: 3x(x+3)(x+8)","input":"","response":"3x³+33x²+72x","topic":"Algebra","subtopic":"Expansion","language":"en","type":"exam_question"}
+{"instruction":"Triangle ∠A=43°, ∠B=56°. Find ∠C.","input":"","response":"81°","topic":"Geometry","subtopic":"Triangle Angles","language":"en","type":"exam_question"}
+{"instruction":"ξ={1..10},A={1,3,5,7,9}. Find A'.","input":"","response":"{2,4,6,8,10}","topic":"Sets","subtopic":"Complement","language":"en","type":"exam_question"}
+{"instruction":"Evaluate: 7/2+2/7","input":"","response":"284/75","topic":"Numbers","subtopic":"Fractions","language":"en","type":"exam_question"}
+{"instruction":"Sketch y = 1/x for x > 0. What is the shape called?","input":"","response":"Reciprocal (hyperbola)","topic":"Graphs","subtopic":"Reciprocal Graphs","language":"en","type":"exam_question"}
+{"instruction":"Chart: Red:14, Blue:9, Green:15, Yellow:11. Fraction Blue?","input":"","response":"11/60","topic":"Statistics","subtopic":"Bar Charts","language":"en","type":"exam_question"}
+{"instruction":"y=4x+4. Gradient and y-intercept?","input":"","response":"m=4, c=4","topic":"Graphs","subtopic":"Straight Line Graphs","language":"en","type":"exam_question"}
+{"instruction":"Sine rule: a=10cm, A=33°, B=37°. Find b.","input":"","response":"11.05 cm","topic":"Trigonometry","subtopic":"Sine Rule","language":"en","type":"exam_question"}
+{"instruction":"P(A)=3/4, P(B)=2/4 (indep). P(A∩B)?","input":"","response":"3/8","topic":"Probability","subtopic":"Independent Events","language":"en","type":"exam_question"}
+{"instruction":"|(4,1)|?","input":"","response":"4.12","topic":"Vectors","subtopic":"Magnitude","language":"en","type":"exam_question"}
+{"instruction":"A=[2 4; 1 1]. Find A⁻¹.","input":"","response":"1/-2 × [1 -4; -1 2]","topic":"Matrices","subtopic":"Inverse","language":"en","type":"exam_question"}
+{"instruction":"Sine rule: a=23cm, A=45°, B=41°. Find b.","input":"","response":"21.34 cm","topic":"Trigonometry","subtopic":"Sine Rule","language":"en","type":"exam_question"}
+{"instruction":"y=2^x. Find y when x=-2.","input":"","response":"0.25","topic":"Graphs","subtopic":"Exponential Graphs","language":"en","type":"exam_question"}
+{"instruction":"a varies inversely as b. If a=5 when b=6, find a when b=7","input":"","response":"4","topic":"Ratio & Proportion","subtopic":"Inverse Proportion","language":"en","type":"exam_question"}
+{"instruction":"Evaluate: 4^3","input":"","response":"64","topic":"Algebra","subtopic":"Indices","language":"en","type":"exam_question"}
+{"instruction":"Median of: 8, 9, 20, 24, 26, 26, 27, 28, 29","input":"","response":"26","topic":"Statistics","subtopic":"Median","language":"en","type":"exam_question"}
+{"instruction":"Sector r=9cm, angle=40°. Arc length? (π=3.142)","input":"","response":"6.28 cm","topic":"Mensuration","subtopic":"Arc Length","language":"en","type":"exam_question"}
+{"instruction":"P(3,2) enlarge SF=4 about origin. Find P'.","input":"","response":"P'(12,8)","topic":"Transformations","subtopic":"Enlargement","language":"en","type":"exam_question"}

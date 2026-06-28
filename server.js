@@ -3,7 +3,8 @@ const app = express();
 app.use(express.json());
 
 const PORT = process.env.NYASHA_PORT || 8000;
-const AI_BOS_URL = process.env.AI_BOS_URL || 'http://127.0.0.1:18789';
+const AI_BOS_URL = process.env.AI_BOS_URL || null; // null = not available on Render
+const DEEPSEEK_API_KEY = process.env.DEEPSEEK_API_KEY || null; // set this on Render
 const AI_BOS_TOKEN = process.env.AI_BOS_TOKEN || 'AI_BOS_SECURE_TOKEN_2026';
 
 // ─── Shona System Prompts ────────────────────────────────
@@ -32,29 +33,59 @@ RULES:
 // ─── AI Routing ──────────────────────────────────────────
 
 async function askViaOpenClaw(prompt, systemPrompt) {
-  try {
-    const resp = await fetch(`${AI_BOS_URL}/v1/chat/completions`, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'Authorization': `Bearer ${AI_BOS_TOKEN}`
-      },
-      body: JSON.stringify({
-        model: 'deepseek/deepseek-chat',
-        messages: [
-          { role: 'system', content: systemPrompt },
-          { role: 'user', content: prompt }
-        ],
-        max_tokens: 1500,
-        temperature: 0.3
-      })
-    });
-    const data = await resp.json();
-    return data?.choices?.[0]?.message?.content || null;
-  } catch (e) {
-    console.error('OpenClaw AI error:', e.message);
-    return null;
+  // Try OpenClaw first (local/self-hosted)
+  if (AI_BOS_URL) {
+    try {
+      const resp = await fetch(`${AI_BOS_URL}/v1/chat/completions`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${AI_BOS_TOKEN}`
+        },
+        body: JSON.stringify({
+          model: 'deepseek/deepseek-chat',
+          messages: [
+            { role: 'system', content: systemPrompt },
+            { role: 'user', content: prompt }
+          ],
+          max_tokens: 1500,
+          temperature: 0.3
+        })
+      });
+      const data = await resp.json();
+      return data?.choices?.[0]?.message?.content || null;
+    } catch (e) {
+      console.error('OpenClaw AI error:', e.message);
+    }
   }
+  
+  // Fallback: Direct DeepSeek API (for Render/standalone deployment)
+  if (DEEPSEEK_API_KEY) {
+    try {
+      const resp = await fetch('https://api.deepseek.com/chat/completions', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${DEEPSEEK_API_KEY}`
+        },
+        body: JSON.stringify({
+          model: 'deepseek-chat',
+          messages: [
+            { role: 'system', content: systemPrompt },
+            { role: 'user', content: prompt }
+          ],
+          max_tokens: 1500,
+          temperature: 0.3
+        })
+      });
+      const data = await resp.json();
+      return data?.choices?.[0]?.message?.content || null;
+    } catch (e) {
+      console.error('DeepSeek API error:', e.message);
+    }
+  }
+  
+  return null;
 }
 
 // ─── Routes ──────────────────────────────────────────────

@@ -1,0 +1,245 @@
+[
+  {
+    "topic": "Numbers and Operations",
+    "subtopic": "Fractions, decimals, percentages",
+    "templates": [
+      {
+        "type": "worked_example",
+        "instruction_template": "Calculate {a}/{b} + {c}/{d}. Show all working.",
+        "response_template": "## Step 1: Find the LCD\nLCD of {b} and {d} = {lcd}\n\n## Step 2: Convert fractions\n{a}/{b} = {a_conv}/{lcd}, {c}/{d} = {c_conv}/{lcd}\n\n## Step 3: Add numerators\n{a_conv} + {c_conv} = {num_sum}\n\n## Step 4: Simplify\n{num_sum}/{lcd} = {simplified}\n\n**Answer:** {simplified}",
+        "vars": {
+          "a": {"min": 1, "max": 9},
+          "b": {"min": 2, "max": 12},
+          "c": {"min": 1, "max": 9},
+          "d": {"min": 2, "max": 12, "not_equal_to": "b"}
+        },
+        "language": "english"
+      },
+      {
+        "type": "worked_example",
+        "instruction_template": "Verenga {a}/{b} + {c}/{d}. Ratidza mabasa ako ese.",
+        "response_template": "## Nhanho 1: Tsvaga LCD\nLCD ye {b} na{d} = {lcd}\n\n## Nhanho 2: Shandura zvidimbu\n{a}/{b} = {a_conv}/{lcd}, {c}/{d} = {c_conv}/{lcd}\n\n## Nhanho 3: Wedzera nhamba\n{a_conv} + {c_conv} = {num_sum}\n\n## Nhanho 4: Rerutsa\n{num_sum}/{lcd} = {simplified}\n\n**Mhinduro:** {simplified}",
+        "vars": {
+          "a": {"min": 1, "max": 9},
+          "b": {"min": 2, "max": 12},
+          "c": {"min": 1, "max": 9},
+          "d": {"min": 2, "max": 12, "not_equal_to": "b"}
+        },
+        "language": "shona"
+      },
+      {
+        "type": "word_problem",
+        "instruction_template": "A pizza is cut into {b} equal slices. You eat {a} slices and your friend eats {c} slices. What fraction of the pizza has been eaten? Express your answer in simplest form.",
+        "response_template": "## Step 1: Fractions eaten\nYou ate {a}/{b}, friend ate {c}/{b}\n\n## Step 2: Add fractions\n{a}/{b} + {c}/{b} = {num_sum}/{b}\n\n## Step 3: Simplify\n{num_sum}/{b} = {simplified}\n\n**Answer:** {simplified} of the pizza was eaten.",
+        "vars": {
+          "a": {"min": 1, "max": 5},
+          "b": {"min": 6, "max": 12},
+          "c": {"min": 1, "max": 5}
+        },
+        "language": "english"
+      },
+      {
+        "type": "word_problem",
+        "instruction_template": "Piza yakachekwa kuita zvidimbu {b}. Unodya zvidimbu {a} uye shamwari yako inodya zvidimbu {c}. Chidimbu chepiza chakadyiwa ndechei? Pindura muchimiro chakareruka.",
+        "response_template": "## Nhanho 1: Zvidimbu zvakadyiwa\nIwe wakadya {a}/{b}, shamwari yako yakadya {c}/{b}\n\n## Nhanho 2: Wedzera zvidimbu\n{a}/{b} + {c}/{b} = {num_sum}/{b}\n\n## Nhanho 3: Rerutsa\n{num_sum}/{b} = {simplified}\n\n**Mhinduro:** {simplified} yepiza yakadyiwa.",
+        "vars": {
+          "a": {"min": 1, "max": 5},
+          "b": {"min": 6, "max": 12},
+          "c": {"min": 1, "max": 5}
+        },
+        "language": "shona"
+      },
+      {
+        "type": "exam_question",
+        "instruction_template": "Express {percent}% as a fraction in its simplest form.",
+        "response_template": "## Step 1: Write as fraction\n{percent}% = {percent}/100\n\n## Step 2: Simplify\nHCF of {percent} and 100 = {hcf}\n{percent}/100 = {simplified}\n\n**Answer:** {simplified}",
+        "vars": {
+          "percent": {"min": 5, "max": 95, "step": 5}
+        },
+        "language": "english"
+      },
+      {
+        "type": "concept_question",
+        "instruction_template": "Explain how to convert a decimal to a percentage. Give an example.",
+        "response_template": "## Converting Decimals to Percentages\nTo convert a decimal to a percentage, multiply by 100 and add the % sign.\n\n## Example\nConvert {decimal} to a percentage:\n{decimal} × 100 = {percent}%\n\n## Shortcut\nMove the decimal point two places to the right.\n\n**Answer:** {decimal} = {percent}%",
+        "vars": {
+          "decimal": {"choices": [0.25, 0.5, 0.75, 0.125, 0.375, 0.625, 0.875, 0.2, 0.4, 0.6, 0.8, 0.333]}
+        },
+        "language": "english"
+      }
+    ]
+  },
+  {
+    "topic": "Numbers and Operations",
+    "subtopic": "Indices and standard form",
+    "templates": [
+      {
+        "type": "worked_example",
+        "instruction_template": "Simplify: {a}^{m} × {a}^{n}. Leave your answer in index form.",
+        "response_template": "## Step 1: Recall the multiplication law\nWhen multiplying powers with the same base: a^m × a^n = a^(m+n)\n\n## Step 2: Apply the law\n{a}^{m} × {a}^{n} = {a}^({m}+{n})\n\n## Step 3: Add the indices\n{m} + {n} = {sum}\n\n**Answer:** {a}^{sum}",
+        "vars": {
+          "a": {"choices": [2, 3, 4, 5, 6, 7, 8, 9, 10]},
+          "m": {"min": 1, "max": 5},
+          "n": {"min": 1, "max": 5}
+        },
+        "language": "english"
+      },
+      {
+        "type": "worked_example",
+        "instruction_template": "Simplify: {a}^{m} ÷ {a}^{n}. Leave your answer in index form.",
+        "response_template": "## Step 1: Recall the division law\nWhen dividing powers with the same base: a^m ÷ a^n = a^(m-n)\n\n## Step 2: Apply the law\n{a}^{m} ÷ {a}^{n} = {a}^({m}-{n})\n\n## Step 3: Subtract the indices\n{m} - {n} = {diff}\n\n**Answer:** {a}^{diff}",
+        "vars": {
+          "a": {"choices": [2, 3, 4, 5, 6, 7, 8, 9, 10]},
+          "m": {"min": 3, "max": 7},
+          "n": {"min": 1, "max": 4}
+        },
+        "language": "english"
+      },
+      {
+        "type": "exam_question",
+        "instruction_template": "Write {n} in standard form.",
+        "response_template": "## Standard Form Conversion\nA number in standard form is written as A × 10^n where 1 ≤ A < 10\n\n## Step 1: Place the decimal point after the first digit\n{n_std} → {mantissa} × 10^{exponent}\n\n## Step 2: Count how many places the decimal moved\nThe decimal moved {exponent} places to the {direction}.\n\n**Answer:** {mantissa} × 10^{exponent}",
+        "vars": {
+          "n": {"choices": [3000000, 45000, 670000, 1200000, 850, 200000000, 0.00045, 0.0032, 0.000078, 0.00000091]}
+        },
+        "language": "english"
+      }
+    ]
+  },
+  {
+    "topic": "Algebra",
+    "subtopic": "Linear equations and inequalities",
+    "templates": [
+      {
+        "type": "worked_example",
+        "instruction_template": "Solve for x: {a}x + {b} = {c}",
+        "response_template": "## Step 1: Subtract {b} from both sides\n{a}x + {b} - {b} = {c} - {b}\n{a}x = {rhs}\n\n## Step 2: Divide both sides by {a}\n{a}x / {a} = {rhs} / {a}\nx = {ans}\n\n**Answer:** x = {ans}",
+        "vars": {
+          "a": {"min": 2, "max": 10},
+          "b": {"min": -10, "max": 10},
+          "c": {"min": -20, "max": 30}
+        },
+        "language": "english"
+      },
+      {
+        "type": "word_problem",
+        "instruction_template": "John has {n1} marbles. He buys {n2} more packets each containing {x_marble} marbles. He now has {total} marbles. How many marbles were in each packet? Form an equation and solve.",
+        "response_template": "## Step 1: Let x = number of marbles in each packet\n\n## Step 2: Form equation\n{n1} + {n2}x = {total}\n\n## Step 3: Subtract {n1} from both sides\n{n2}x = {rhs}\n\n## Step 4: Divide by {n2}\nx = {ans}\n\n**Answer:** Each packet contains {ans} marbles.",
+        "vars": {
+          "n1": {"min": 5, "max": 20},
+          "n2": {"min": 2, "max": 6},
+          "total": {"min": 30, "max": 60}
+        },
+        "language": "english",
+        "computed": ["x_marble"]
+      }
+    ]
+  },
+  {
+    "topic": "Geometry and Trigonometry",
+    "subtopic": "Trigonometry (SOH CAH TOA)",
+    "templates": [
+      {
+        "type": "worked_example",
+        "instruction_template": "In a right-angled triangle, the opposite side is {opp} cm and the hypotenuse is {hyp} cm. Find angle θ. Show all working.",
+        "response_template": "## Step 1: Identify which trig ratio to use\nOpposite = {opp} cm, Hypotenuse = {hyp} cm\nsin θ = Opposite / Hypotenuse\n\n## Step 2: Set up equation\nsin θ = {opp} / {hyp} = {ratio:.3f}\n\n## Step 3: Use inverse sine\nθ = sin⁻¹({ratio:.3f})\n\n## Step 4: Calculate\nθ = {angle}° (to 1 d.p.)\n\n**Answer:** θ = {angle}°",
+        "vars": {
+          "opp": {"min": 3, "max": 15},
+          "hyp": {"min": 5, "max": 25},
+          "angle": {"min": 15, "max": 75}
+        },
+        "language": "english"
+      },
+      {
+        "type": "worked_example",
+        "instruction_template": "Find the length of side x in a right-angled triangle where the adjacent side is {adj} cm and angle is {angle}°. Show all working.",
+        "response_template": "## Step 1: Identify which trig ratio to use\nAdjacent = {adj} cm, Angle = {angle}°\ncos θ = Adjacent / Hypotenuse (CAH)\nAdjacent = {adj}, we need Hypotenuse\n\n## Step 2: Alternative - use adjacent and opposite\ntan θ = Opposite / Adjacent (TOA)\nOpposite = Adjacent × tan θ\n\n## Step 3: Calculate\nOpposite = {adj} × tan({angle}°)\nOpposite = {adj} × {tan_val:.4f}\nOpposite = {ans:.1f} cm\n\n**Answer:** x = {ans:.1f} cm",
+        "vars": {
+          "adj": {"min": 4, "max": 20},
+          "angle": {"choices": [30, 35, 40, 45, 50, 55, 60]}
+        },
+        "language": "english"
+      }
+    ]
+  },
+  {
+    "topic": "Statistics and Probability",
+    "subtopic": "Mean, median, mode",
+    "templates": [
+      {
+        "type": "worked_example",
+        "instruction_template": "Find the mean of these numbers: {numbers}",
+        "response_template": "## Step 1: Add all numbers\n{sum_str} = {total}\n\n## Step 2: Count how many numbers\n{n} numbers\n\n## Step 3: Divide total by count\nMean = {total} / {n} = {mean:.1f}\n\n**Answer:** Mean = {mean:.1f}",
+        "vars": {
+          "count": {"min": 4, "max": 8},
+          "min_val": {"min": 1, "max": 20},
+          "max_val": {"min": 30, "max": 100}
+        },
+        "language": "english"
+      },
+      {
+        "type": "exam_question",
+        "instruction_template": "Find the median of the following data set: {sorted_numbers}",
+        "response_template": "## Step 1: Data is already ordered\n{sorted_str}\n\n## Step 2: Find the middle position\n{n} numbers. Middle position = ({n}+1)/2 = {mid_pos}\n\n## Step 3: Read the middle value\nThe {mid_pos}th value is {median}\n\n**Answer:** Median = {median}",
+        "vars": {
+          "count": {"min": 5, "max": 11, "choices": [5, 7, 9, 11]},
+          "min_val": {"min": 1, "max": 30},
+          "max_val": {"min": 40, "max": 100}
+        },
+        "language": "english"
+      }
+    ]
+  },
+  {
+    "topic": "Mensuration",
+    "subtopic": "Perimeter and area",
+    "templates": [
+      {
+        "type": "worked_example",
+        "instruction_template": "A rectangle has length {len} cm and width {wid} cm. Calculate: (a) the perimeter (b) the area.",
+        "response_template": "## (a) Perimeter\nPerimeter = 2(length + width)\nP = 2({len} + {wid})\nP = 2 × {sum}\nP = {perim} cm\n\n## (b) Area\nArea = length × width\nA = {len} × {wid}\nA = {area} cm²\n\n**Answer:** (a) Perimeter = {perim} cm (b) Area = {area} cm²",
+        "vars": {
+          "len": {"min": 5, "max": 30},
+          "wid": {"min": 3, "max": 15}
+        },
+        "language": "english"
+      }
+    ]
+  },
+  {
+    "topic": "Vectors and Transformations",
+    "subtopic": "Translation, reflection, rotation",
+    "templates": [
+      {
+        "type": "worked_example",
+        "instruction_template": "A point P({x},{y}) is translated by vector ({dx},{dy}). Find the coordinates of image P'.",
+        "response_template": "## Step 1: Add the vector to the original coordinates\nP' = P + vector\nP'(x', y') = ({x} + {dx}, {y} + {dy})\n\n## Step 2: Calculate\nx' = {x} + {dx} = {x_new}\ny' = {y} + {dy} = {y_new}\n\n**Answer:** P'({x_new},{y_new})",
+        "vars": {
+          "x": {"min": -5, "max": 10},
+          "y": {"min": -5, "max": 10},
+          "dx": {"min": -5, "max": 5},
+          "dy": {"min": -5, "max": 5}
+        },
+        "language": "english"
+      }
+    ]
+  },
+  {
+    "topic": "Coordinate Geometry",
+    "subtopic": "Gradient and equation of a line",
+    "templates": [
+      {
+        "type": "worked_example",
+        "instruction_template": "Find the gradient of the line passing through points A({x1},{y1}) and B({x2},{y2}).",
+        "response_template": "## Step 1: Use gradient formula\nm = (y₂ - y₁) / (x₂ - x₁)\n\n## Step 2: Substitute coordinates\nm = ({y2} - {y1}) / ({x2} - {x1})\n\n## Step 3: Calculate\nm = {dy} / {dx}\nm = {gradient:.2f}\n\n**Answer:** Gradient = {gradient:.2f}",
+        "vars": {
+          "x1": {"min": -5, "max": 5},
+          "y1": {"min": -5, "max": 5},
+          "x2": {"min": -5, "max": 10},
+          "y2": {"min": -5, "max": 10}
+        },
+        "language": "english"
+      }
+    ]
+  }
+]
